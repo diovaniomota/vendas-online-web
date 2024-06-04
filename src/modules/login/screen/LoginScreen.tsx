@@ -1,4 +1,4 @@
-import { ContainerLogin, EntradaImage, LimitedContainer ,LoginImage } from "../styles/loginScreen.styles"
+import { ContainerLogin, EntradaImage, LimitedContainer ,LoginImage, ContainerLoginScreen } from "../styles/loginScreen.styles"
 const LoginScreen = () => {
     return (<div>
         <EntradaImage src="./entrada.png"/>
