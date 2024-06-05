@@ -9,14 +9,14 @@ export const ContainerLoginScreen = styled.div `
 export const EntradaImage = styled.img `
     position: absolute;
     left: 0;
-    top: 0;
-    width: 100%;
+    top: auto;
+    width: 100;
     height: 100vh;
     object-fit: cover;
     z-index: -1;
 `;
 
-export const LoginImage = styled.img `
+export const LogoImage = styled.img `
 
 `;
 
@@ -37,4 +37,5 @@ export const LimitedContainer = styled.div `
     max-width: 498px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 `;
