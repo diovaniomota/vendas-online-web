@@ -1,14 +1,14 @@
+import { Typography } from "antd";
 import styled from "styled-components";
 
-export const BoxInput = styled.div `
+const { Text } = Typography;
+
+export const BoxInput = styled.div `  //aqui no mexe no campo onde preenche email e senha
+        width: 100%;
+
 `;
 
 
-export const TitleInput = styled.h3 `
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+export const TitleInput = styled(Text) ` // aqui mexe no texto que fica em cima do campo de senha e email 
     margin: 8px;
 `;

@@ -1,5 +1,7 @@
-import { ContainerLogin, EntradaImage, LimitedContainer ,LogoImage, ContainerLoginScreen } from "../styles/loginScreen.styles"
+import { ContainerLogin, EntradaImage, LimitedContainer ,LogoImage, ContainerLoginScreen, TitleLogin } from "../styles/loginScreen.styles"
 import Input from "../../../shared/components/inputs/input/input";
+import Button from "../../../shared/buttons/button/Button";
+
 
 const LoginScreen =  () => {
     return (
@@ -7,8 +9,10 @@ const LoginScreen =  () => {
             <ContainerLogin>
                 <LimitedContainer>
                     <LogoImage src="./logo.png" />
-                        <Input title="Uusuário"/>
-                        <Input title="Senha"/>
+                        <TitleLogin level={2} type="secondary">Login</TitleLogin>
+                        <Input title="Uusuário" margin="32px 0px 0px "/>
+                        <Input title="Senha" margin="32px 0px 0px"/>
+                        <Button type="primary" margin="20px 8px 16px 8px">Entrar</Button>
                 </LimitedContainer>
             </ContainerLogin>
             <EntradaImage src="./entrada.png"/>
